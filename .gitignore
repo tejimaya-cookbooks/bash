@@ -1,0 +1,12 @@
+.Trash/
+.tmp/
+*~
+*#
+.#*
+\#*#
+.*.sw[a-z]
+*.un~
+
+.vagrant
+Berksfile.lock
+
