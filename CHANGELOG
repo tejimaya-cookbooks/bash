@@ -1,5 +1,8 @@
 = CHANGELOG for bash
 
+== 0.1.0
+* serverspec ファイルの追加
+
 == 0.0.1
 * Initial commit of bash
 
