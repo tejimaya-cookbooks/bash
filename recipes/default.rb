@@ -8,3 +8,7 @@
 package "bash" do
   action :install
 end
+
+template "/etc/skel/.bash_login" do
+  action :create
+end

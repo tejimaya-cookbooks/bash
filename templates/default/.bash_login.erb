@@ -1,0 +1,13 @@
+# /etc/skel/.bash_login
+
+# local setting
+umask 002
+
+# prompt
+PS1="[\u@\h \W]\\$ "
+
+# pirnt hostname to screen statusbar
+tty -s
+if [ $? -eq 0 ]; then
+  printf %bk%s%b%b \\033 "${HOSTNAME%%.*}" \\033 \\0134;
+fi
