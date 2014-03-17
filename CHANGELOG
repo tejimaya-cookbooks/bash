@@ -1,5 +1,8 @@
 = CHANGELOG for bash
 
+== 0.1.2
+* add file /etc/skel/.bash_login
+
 == 0.1.1
 * 外部プロパティの呼び出し方法を Helper::Attributes から Helper::Properties に変更
 
