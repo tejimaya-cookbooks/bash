@@ -6,6 +6,10 @@ umask 002
 # prompt
 PS1="[\u@\h \W]\\$ "
 
+# ls color
+LS_OPTIONS="--color=auto"
+alias ls='ls $LS_OPTIONS'
+
 # pirnt hostname to screen statusbar
 tty -s
 if [ $? -eq 0 ]; then
