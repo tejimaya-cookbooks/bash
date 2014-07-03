@@ -1,5 +1,8 @@
 = CHANGELOG for bash
 
+== 0.1.3
+* Fixes #1 ls color の設定を追加
+
 == 0.1.2
 * add file /etc/skel/.bash_login
 
