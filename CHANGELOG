@@ -1,5 +1,8 @@
 = CHANGELOG for bash
 
+== 0.1.5
+* #3 test-kitchen に対応
+
 == 0.1.4
 * #2 serverspec-2.0 に対応
 
