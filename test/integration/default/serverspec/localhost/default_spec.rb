@@ -15,3 +15,7 @@ describe file("/etc/skel/.bash_login") do
   it { should contain "LS_OPTIONS=\"--color=auto\"" }
   it { should contain "alias ls='ls $LS_OPTIONS'" }
 end
+
+describe file("/bin/sh") do
+  it { should be_linked_to "/bin/bash"}
+end
