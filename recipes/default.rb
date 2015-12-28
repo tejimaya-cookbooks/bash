@@ -12,3 +12,7 @@ end
 template "/etc/skel/.bash_login" do
   action :create
 end
+
+link "/bin/sh" do
+  to "/bin/bash"
+end
