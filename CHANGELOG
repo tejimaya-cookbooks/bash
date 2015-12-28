@@ -1,5 +1,7 @@
 = CHANGELOG for bash
 
+== 0.1.6
+* #4 /bin/sh のリンク先を /bin/bash に設定
 == 0.1.5
 * #3 test-kitchen に対応
 
