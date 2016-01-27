@@ -19,9 +19,4 @@ bash をインストールします
 # 共同開発するための手順を記述します。
 
 == License and Authors
-# ライセンスと著作者を記述します
-+ Author
-yoshino takahiro <yoshino@tejimaya.com>
-
-+ Copyright
-2013 Tejimaya.inc
+This cookbook is released under the MIT License, see LICENSE.txt.

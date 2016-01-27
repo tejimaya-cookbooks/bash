@@ -3,7 +3,7 @@
 name             'bash'
 maintainer       'Tejimaya.inc'
 maintainer_email 'support@tejimaya.com'
-license          'GPL v3'
+license          'MIT'
 description      'Installs/Configures bash'
 long_description "show README"
 version          '0.1.6'
