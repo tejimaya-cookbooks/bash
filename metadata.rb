@@ -6,6 +6,6 @@ maintainer_email 'support@tejimaya.com'
 license          'MIT'
 description      'Installs/Configures bash'
 long_description "show README"
-version          '0.1.6'
+version          '0.1.7'
 
 recipe "bash", "Installs bash"
