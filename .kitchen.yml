@@ -1,12 +1,12 @@
 ---
 driver:
-  name: vagrant
+  name: docker
 
 provisioner:
   name: chef_solo
 
 platforms:
-  - name: debian/wheezy64
+  - name: debian-wheezy
 
 suites:
   - name: default
