@@ -1,5 +1,9 @@
 = CHANGELOG for bash
 
+== 0.1.8
+* test-kitchen の driver を docker に変更
+* test-kitchen の ターゲット OS に debian-jessie と debian-stretch を追加
+
 == 0.1.7
 * License from GPLv3 to MIT
 
